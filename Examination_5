@@ -6,6 +6,13 @@
 # ==========================================
 
 # เขียนโค้ดต่อจากนี้
-quantity = int(input())
+quantity = int(input("จำนวนสมุดที่ต้องการซื้อ: "))
+total = quantity * 20
+discount = 10
+
+if quantity >= 5:
+net_price = total - discount
+print(net_price)
+
 
 
